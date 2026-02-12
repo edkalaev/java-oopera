@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Opera extends MusicalShow {
-    int choirSize; //количество человек в хоре
+    private int choirSize; //количество человек в хоре
 
     public Opera(String title, int duration, Director director, ArrayList<Actor> listOfActors,
                  Person musicAuthor, String librettoText, int choirSize) {

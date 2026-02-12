@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Ballet extends MusicalShow {
-    Person choreographer; //хореограф
+    private Person choreographer; //хореограф
 
 
 
@@ -11,8 +11,5 @@ public class Ballet extends MusicalShow {
         this.choreographer = choreographer;
     }
 
-    public void setChoreographer(Person choreographer) {
-        this.choreographer = choreographer;
 
-    }
 }

@@ -1,6 +1,6 @@
 public class Director extends Person {
 
-    int numberOfShows;
+    private int numberOfShows;
 
     public Director(String name, String surname, Gender gender, int numberOfShows) {
         super(name, surname, gender);
